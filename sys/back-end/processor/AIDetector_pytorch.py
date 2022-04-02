@@ -22,7 +22,9 @@ class Detector(object):
         self.device = select_device(self.device)
         model = attempt_load(self.weights, map_location=self.device)
         model.to(self.device).eval()
-        model.half()
+        # 修改理由：cpu 版本不支持半精度操作，故改为 .float() 全精度
+        # model.half()
+        model.float()
         # torch.save(model, 'test.pt')
         self.m = model
         self.names = model.module.names if hasattr(
@@ -38,7 +40,9 @@ class Detector(object):
         img = img[:, :, ::-1].transpose(2, 0, 1)
         img = np.ascontiguousarray(img)
         img = torch.from_numpy(img).to(self.device)
-        img = img.half()  # 半精度
+        # 修改理由：cpu 版本不支持半精度操作，故改为 .float() 全精度
+        # img = img.half()  # 半精度
+        img = img.float()
         img /= 255.0  # 图像归一化
         if img.ndimension() == 3:
             img = img.unsqueeze(0)

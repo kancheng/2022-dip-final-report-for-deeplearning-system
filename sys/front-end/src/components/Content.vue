@@ -1,7 +1,7 @@
 <template>
   <div id="Content">
     <el-dialog
-      title="AI预测中"
+      title="AI 预测中"
       :visible.sync="dialogTableVisible"
       :show-close="false"
       :close-on-press-escape="false"

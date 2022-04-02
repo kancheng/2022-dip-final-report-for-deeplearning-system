@@ -6,7 +6,7 @@
         >DLL
       </span>
       <span>
-        <i class="el-icon-time" style="font-size: 23px"></i> Deep Learning
+        <i class="el-icon-time" style="font-size: 23px"></i> 面向網路教學的聽課狀態視頻分析系統
       </span>
     </div>
     <div id="word">
