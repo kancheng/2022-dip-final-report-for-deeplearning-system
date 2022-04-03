@@ -35,6 +35,8 @@ pip install tqdm
 ```
 pip3 install flask-socketio
 pip install flask-wtf
+pip install eventlet
+pip install gevent
 ```
 
 ## Reference
@@ -43,5 +45,14 @@ pip install flask-wtf
 
 2. Flask Streaming : https://github.com/snoopy831002/flask-streaming
 
-3. Flask SocketIO Chat : https://github.com/snoopy831002/Flask-SocketIO-Chat
+3. Flask SocketIO Chat : 
 
+- https://github.com/snoopy831002/Flask-SocketIO-Chat
+
+- https://ithelp.ithome.com.tw/articles/10269552
+
+- https://codeburst.io/building-your-first-chat-application-using-flask-in-7-minutes-f98de4adfa5d
+
+4. eventlet & gevent :
+
+https://stackoverflow.com/questions/60991897/websocket-transport-not-available-install-eventlet-or-gevent-and-gevent-websock

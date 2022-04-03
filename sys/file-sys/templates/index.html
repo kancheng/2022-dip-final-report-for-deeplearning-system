@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="{{url_for('static', filename='jquery.min.js')}}"></script>
+    <title>上傳作業</title>
+  </head>
+
+  <body>
+  <h1>上傳作業</h1>
+  <form method="POST" enctype="multipart/form-data"  action="{{ url_for('upload_file') }}">
+    <input type="file" name="filename" required>
+    <input type="submit" value="上傳">
+  </form>
+  </body>
+</html>
