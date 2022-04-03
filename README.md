@@ -4,13 +4,20 @@
 
 面向網路教學的聽課狀態視頻分析系統
 
-### 思路
+
+## 思路
 
 1. 使用疲勞駕駛的神經網路模型
 
 2. YOLO 辨識人臉
 
 3. Vue 前端 & Python 後端 & Pytorch
+
+## 紀錄
+
+1. Flask Yolov5 VUE
+
+使用 Pytorch CPU 版本，Python 3.9.0
 
 ```
 pip install flask
@@ -22,3 +29,19 @@ pip install matplotlib
 pip install scipy
 pip install tqdm
 ```
+
+2. Flask & SocketIO
+
+```
+pip3 install flask-socketio
+pip install flask-wtf
+```
+
+## Reference
+
+1. Flask Yolov5 VUE : https://github.com/Sharpiless/Yolov5-Flask-VUE
+
+2. Flask Streaming : https://github.com/snoopy831002/flask-streaming
+
+3. Flask SocketIO Chat : https://github.com/snoopy831002/Flask-SocketIO-Chat
+
