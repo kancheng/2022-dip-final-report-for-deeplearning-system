@@ -6,9 +6,28 @@
 
 ## Demo
 
-1. Check
+### 1. Check
 
-![](demo-check-sys.gif)
+![](img/demo-check-sys.gif)
+
+### 2. Chat
+
+![](img/demo-chat-sys.png)
+
+### 3. File
+
+![](img/demo-file-sys-0.png)
+
+![](img/demo-file-sys-1.png)
+
+### 4. Video
+
+![](img/demo-video-sys.png)
+
+### 5. Streaming
+
+![](img/demo-streaming-sys.png)
+
 
 ## 思路
 
