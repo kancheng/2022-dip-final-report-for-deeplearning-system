@@ -4,6 +4,11 @@
 
 面向網路教學的聽課狀態視頻分析系統
 
+## Demo
+
+1. Check
+
+![](demo-check-sys.gif)
 
 ## 思路
 
@@ -56,6 +61,9 @@ pip install gevent
 4. eventlet & gevent :
 
 - https://stackoverflow.com/questions/60991897/websocket-transport-not-available-install-eventlet-or-gevent-and-gevent-websock
+<<<<<<< HEAD
 
 5. File : https://swf.com.tw/?p=1730
 
+=======
+>>>>>>> 890a8258b07b3518d0ee3bccaa5a13037d01d261
