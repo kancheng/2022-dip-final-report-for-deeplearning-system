@@ -30,6 +30,10 @@
 
 ![](img/demo-streaming-sys.png)
 
+### 6. 傳統疲勞檢測
+
+
+
 
 ## 思路
 
