@@ -32,7 +32,9 @@
 
 ### 6. 傳統疲勞檢測
 
+![](img/fatigue-monitoring-sys-0.png)
 
+![](img/fatigue-monitoring-sys-1.png)
 
 
 ## 思路
